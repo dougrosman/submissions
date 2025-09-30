@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("bloom.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    color: #fdfdfd;
+}
+
+#video {
+    width: 100%;
+    max-width: 1280px;
+    box-shadow: 0 0 60px -20px black;
+    opacity: .8;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    min-height: 100svh;
+    max-width: 100ch;
+    margin-inline: auto;
+    padding: .5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fdfdfd;
+}
+
+.container {
+    padding: 1rem;
+    color: #111;
+    margin: 2rem 0;
+    
+    width: fit-content;
+    background-color: #fdfdfd;
+    line-height: 1.3;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: 0;
+}

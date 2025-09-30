@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PIXEL x PIXEL 2025</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <header>
+            <h1>PIXEL x PIXEL 2025</h1>
+        </header>
+        <main>
+            <video src="Bloom_720p.mp4" id="video" controls muted playsinline></video>
+
+            <div class="container">
+                <p>Doug Rosman</p>
+                <p>Bloom</p>
+                <br>
+                <p>2025</p>
+                <p>5m05s</p>
+                <p>3840 x 2160, 24fps</p>
+            </div>
+
+            <div class="container">
+                <p><a href="https://dougrosman.com">dougrosman.com</a></p>
+                <p><a href="https://www.instagram.com/thedougrosmanstory/">@thedougrosmanstory</a></p>
+            </div>
+            <p class="container">&copy; Doug Rosman 2025</p>
+        </main>
+    </div>
+
+    <script>
+        video.addEventListener("play", function() {
+            console.log("ok")
+            video.style.opacity = 1;
+        })
+    </script>
+</body>
+</html>
