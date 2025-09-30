@@ -15,7 +15,7 @@ body {
     width: 100%;
     max-width: 1280px;
     box-shadow: 0 0 60px -20px black;
-    opacity: .8;
+    /* opacity: .8; */
 }
 
 .wrapper {
